@@ -1,7 +1,6 @@
 <?php
     include_once('function.inc.php');
     
-    
     if(isset($_POST['submit'])){
         
         $sql="SELECT * FROM member where  username='$_POST[username]' and passwd = '$_POST[passwd]' ";
