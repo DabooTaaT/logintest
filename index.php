@@ -31,7 +31,7 @@
           wellcom <?php echo  $_SESSION["name"]; ?>
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="editprofile.php">Information</a>
           <a class="dropdown-item" href="#">Another action</a>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="check-logout.php">logout</a>
