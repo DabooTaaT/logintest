@@ -10,7 +10,7 @@
 <?php
 if(isset($_FILES['userfile'])){
     pre_r($_FILES);
-    
+   
     function pre_r($array){
         echo '<pre>';
         print_r($array);
