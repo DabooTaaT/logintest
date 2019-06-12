@@ -11,12 +11,19 @@
 </head>
 <body>  
 <?php
-if(isset($_FILES['userfile'])){
-   print_r($_FILES);
-}
+echo "fight";
+include 'function.inc.php';
 
+if (isset($_FILES['userfile'])){
+    pre_r($_FILES);}
+    
 ?>
+    <!--  <form actions="" method="POST" enctype="multipart/form-data">
+        <input type="file" name="userfile"/>
+        <input type="submit" value="Upload"/>
+     </form>-->
 <hr>
+
 <div class="container bootstrap snippet">
     <div class="row">
   		<div class="col-sm-10"><h1>User name</h1></div>
@@ -34,7 +41,7 @@ if(isset($_FILES['userfile'])){
         <input type="file" name="userfile">
         </div>
         <div class="col-1">
-        <input type="submit" value="upload"/>
+        <input type="submit" value="Upload"/>
         </div>
       </div></hr><br>
       </form>

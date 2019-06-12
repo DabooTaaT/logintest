@@ -7,7 +7,7 @@
      
      include 'function.inc.php';
     if (isset($_FILES['userfile'])){
-        //pre_r($_FILES);
+        pre_r($_FILES);
 
         $phpFileUploadErrors = array(
             0 => 'There is no error, the file uploaded with success',
@@ -43,11 +43,7 @@
                 $_FILES['userfile']['name']);
     }
     $sql ="INSERT INTO `photo`(`id`, `mem_id`, `image`, `lastname`, `name`) VALUES ([value-1],[value-2],[value-3],[value-4],[value-5])"
-    function pre_r($array){
-        echo '<pre>';
-        print_r($array);
-        echo '</pre>';
-    }
+    
 
 
 ?> 
