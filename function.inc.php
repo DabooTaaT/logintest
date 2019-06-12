@@ -17,5 +17,9 @@ function msgbox($text,$url) {
 	echo " parent.window.location='".$url."'; ";
 	echo "</script>";
 }
-
+function pre_r($array){
+	echo '<pre>';
+	print_r($array);
+	echo '</pre>';
+}
 ?>
