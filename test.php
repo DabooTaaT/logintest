@@ -8,6 +8,7 @@
 </head>
 <body>
 <?php
+include 'function.inc.php';
 if(isset($_FILES['userfile'])){
     pre_r($_FILES);
     
@@ -16,7 +17,7 @@ if(isset($_FILES['userfile'])){
 ?>
 
 
-   fight
+   
     <form actions=" " method="POST" enctype="multipart/form-data">
     <input type="file" name="userflie" />
     <input type="submit"    vaule="upload"/>
