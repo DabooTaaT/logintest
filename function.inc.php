@@ -22,5 +22,8 @@ function pre_r($array){
 	print_r($array);
 	echo '</pre>';
 }
+function move_file(){
+	
+}
 
 ?>
