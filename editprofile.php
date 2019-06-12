@@ -32,7 +32,7 @@ if (isset($_FILES['userfile'])){
     <div class="row">
   		<div class="col-sm-3"><!--left col-->
               
-    <form actions="" method ="POST" enctype = "mulipart/from-data">
+          <form actions=" " method="POST" enctype="multipart/form-data">
       <div class="text-center"><!--ใส่เงื่อนไขโชว์รูป-->
 
         <img src="http://ssl.gstatic.com/accounts/ui/avatar_2x.png" class="avatar img-circle img-thumbnail" alt="avatar">
@@ -41,9 +41,9 @@ if (isset($_FILES['userfile'])){
         <input type="file" name="userfile">
         </div>
         <div class="col-1">
-        <input type="submit" value="Upload"/>
+        <input type="submit" vaule="upload" />
         </div>
-      </div></hr><br>
+      </div>
       </form>
                
           <div class="panel panel-default">
