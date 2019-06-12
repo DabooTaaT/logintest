@@ -10,13 +10,22 @@
 </head>
 <body>
     
+
+    <div>
+    <button type="button" class="btn btn-primary btn-lg btn-block">เพิ่มข้อมูล + + +</button>
+    </div>
 <table class="table table-dark">
   <thead>
     <tr>
-      <th scope="col">#</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
+      <th scope="col">ID</th>
+      <th scope="col">picture</th>
+      <th scope="col">NAME</th>
+      <th scope="col">LASTNAME</th>
+      <th scope="col">ADRESS</th>
+      
+      <th scope="col">EDIT</th>
+      <th scope="col">DELETE</th>
+      
     </tr>
   </thead>
   <tbody>
@@ -24,20 +33,17 @@
       <th scope="row">1</th>
       <td>Mark</td>
       <td>Otto</td>
+      <td>Otto</td>
+      
       <td>@mdo</td>
+      <form>
+      <td><input type="image" src="daboo\edit.png" alt="Submit" width=50 height=50  ></td>
+      </form>
+      <form>
+      <td><input type="image" src="daboo\delete.jpg" alt="Submit" width=50 height=50  ></td>
+      </form>
     </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>Larry</td>
-      <td>the Bird</td>
-      <td>@twitter</td>
-    </tr>
+   
   </tbody>
 </table>
 
