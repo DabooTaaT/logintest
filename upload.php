@@ -10,13 +10,12 @@
 <?php
 if(isset($_FILES['userfile'])){
     pre_r($_FILES);
-    
-    function pre_r($array){
+}
+        function pre_r($array){
         echo '<pre>';
         print_r($array);
         echo '</pre>';
     }
-}
 ?>
     <form actions=" " method="POST" enctype="multipart/form-data">
     <input type="file" name="userflie" />
