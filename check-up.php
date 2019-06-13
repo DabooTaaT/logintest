@@ -1,7 +1,7 @@
 <?php
         include 'function.inc.php';
         $traget_dev="daboo/";
-        $traget_file="$traget_dev.basename($_FILES['pic']['name'])";//basename เป็นfunction ที่มีอยู่แล้วใน php myadminบอกมางี้
+        $traget_file=$traget_dev.basename($_FILES['pic']['name']);//basename เป็นfunction ที่มีอยู่แล้วใน php myadminบอกมางี้
         $uploadok=1;
         $imgtype=strtolower(pathinfo($traget_file,PATHINFO_EXTENSION));
 
